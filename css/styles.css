@@ -1,0 +1,68 @@
+.logo-web-top {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.938rem;
+}
+.logo-studio-top {
+  color: #000000;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.938rem;
+}
+.title-about {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1rem;
+}
+.text-about {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+.navigation-links a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.contact a {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1rem;
+}
+.title-main {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 3.75rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #2196f3;
+}
+button[type="button"] {
+  cursor: pointer;
+}
+.logo-web-bottom {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.938rem;
+}
+.logo-studio-bottom {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.938rem;
+}
