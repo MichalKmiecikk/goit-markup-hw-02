@@ -4,8 +4,8 @@
   --main-white: #ffffff;
   --logo-black: #000000;
   --bodytext-color: #212121;
-  --background-color: #2F303A;
-
+  --footerbackground-color: #2f303a;
+  --teamsectionbackgroundn-color: #f5f4fa;
 }
 
 body {
@@ -79,7 +79,7 @@ body {
   font-weight: 900;
   line-height: 1.5rem;
   letter-spacing: 0.6;
-  background: var(--background-color)
+  background: var(--footerbackground-color);
 }
 
 .title-main + button[type="button"] {
@@ -181,5 +181,8 @@ button[type="button"]:active {
   color: var(--main-white);
 }
 .background-footer {
-    background-color: var(--background-color);
+  background-color: var(--footerbackground-color);
+}
+.teamcard-section {
+  background-color: var(--teamsectionbackgroundn-color);
 }
