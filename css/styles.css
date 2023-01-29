@@ -51,6 +51,11 @@ body {
   line-height: 1.14rem;
   letter-spacing: 0.02em;
 }
+.navigation-links a:hover,
+.navigation-links a:focus,
+.navigation-links a:active {
+  color: var(--selection-color);
+}
 
 .contact a {
   text-decoration: none;
@@ -59,6 +64,11 @@ body {
   font-weight: 500;
   line-height: 1.14rem;
   letter-spacing: 0.02;
+}
+.contact a:hover,
+.contact a:focus,
+.contact a:active {
+  color: var(--selection-color);
 }
 
 .title-main {
@@ -69,7 +79,7 @@ body {
   letter-spacing: 0.6;
 }
 
-.title-main button[type="button"] {
+.title-main + button[type="button"] {
   color: var(--main-white);
   font-weight: 700;
   line-height: 1.88rem;
@@ -122,27 +132,33 @@ body {
   line-height: 1.71rem;
   letter-spacing: 0.03em;
 }
-
+.footer-address .site:hover,
+.footer-address .site:focus,
+.footer-address .site:active {
+  color: var(--selection-color);
+}
 .footer-address .contact {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71rem;
 }
+.footer-address .contact:hover,
+.footer-address .contact:focus,
+.footer-address .contact:active {
+  color: var(--selection-color);
+}
 
-button:hover {
+button[type="button"] {
+  cursor: pointer;
+}
+button[type="button"]:hover,
+button[type="button"]:focus,
+button[type="button"]:active {
   color: var(--main-white);
   background: var(--selection-color);
 }
 
-a:hover,
-a:focus,
-a:active {
-  color: var(--selection-color);
-}
-button[type="button"] {
-  cursor: pointer;
-}
 .logo-web-bottom,
 .logo-studio-bottom {
   font-family: "Raleway";
