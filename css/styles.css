@@ -4,6 +4,8 @@
   --main-white: #ffffff;
   --logo-black: #000000;
   --bodytext-color: #212121;
+  --background-color: #2F303A;
+
 }
 
 body {
@@ -77,6 +79,7 @@ body {
   font-weight: 900;
   line-height: 1.5rem;
   letter-spacing: 0.6;
+  background: var(--background-color)
 }
 
 .title-main + button[type="button"] {
@@ -176,4 +179,7 @@ button[type="button"]:active {
 }
 .logo-studio-bottom {
   color: var(--main-white);
+}
+.background-footer {
+    background-color: var(--background-color);
 }
