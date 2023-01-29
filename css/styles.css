@@ -96,10 +96,14 @@ body {
 .teamcard-section .teamcard-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.16rem;
   letter-spacing: 0.03;
 }
-
+.filters button {
+  font-weight: 500;
+  line-height: 1.62rem;
+  letter-spacing: 0.03;
+}
 .team-caption .upper-caption {
   font-weight: 500;
   line-height: 1.19rem;
